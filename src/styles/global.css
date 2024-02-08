@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, input, button, select, textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+/* The main card */
+.para {
+    margin-top: 1em;
+    color: #828282;
+    text-align: left;
+}
+.page-links {
+    margin: 1em 1em 0 1em;
+}
+.page-links a {
+    text-decoration: none;
+    color: rgb(41, 148, 255);
+    cursor: pointer;
+    transition: all .3s;
+}
+.page-links a:hover {
+    color: rgb(110, 183, 255);
+}
+.page-links a:active {
+    color: rgb(6, 120, 235);
+}
+
+/* Card that will be in the center of the screen */
+.card-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border: .1em solid #e2e2e2;
+    border-radius: 1em;
+    padding: 2em;
+    min-width: 25em;
+}
+.card > h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Count container */
+.count-container {
+    width: 100%;
+    height: auto;
+    padding-top: 2em;
+}
+.count-container > p {
+    text-align: center;
+}
+.count-value {
+    font-size: 5em;
+    text-align: center;
+    font-weight: 200;
+}
+
+/* Update Logs container */
+.update-logs-container {
+    width: 100%;
+    padding-top: 2em;
+    text-align: center;
+}
+.update-logs-container > p > span {
+    color: #c2c2c2;
+}
